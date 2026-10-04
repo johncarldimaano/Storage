@@ -1,1 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
 
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cecilia's Homemade Foodies</title>
+  <link rel="stylesheet" href="VIBE.CSS">
+
+</head>
+
+<body>
+
+  <div class="container">
+
+    <!-- FOOD OF THE DAY -->
+    <div class="section-title">
+      Food's of the day
+    </div>
+
+    <div class="food-row">
+
+      <div class="food-card">
+        <img
+          src="https://scontent.fmnl4-2.fna.fbcdn.net/v/t39.30808-6/831222864_1711252194338161_6263325876869086208_n.jpg?stp=dst-jpg_tt6&cstp=mx720x960&ctp=s720x960&_nc_cat=110&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeED5Sh7A7JIQPKO-ZRm9Be3071vYAo8jsfTvW9gCjyOx4JmaYxzwEQSI8f1kXIW-GJxnYb_usAW7wZzmdm03tx3&_nc_ohc=uS6wUU7BqrYQ7kNvwHYuR9u&_nc_oc=AdqYRAf75XG8PZjaI5W1nrJ3Qa5M1LzZjt2AmMciJVoy2sNrWpyT4zZPH6JAUNe94dwptMfvkqpIWJJbrRKpbvfC&_nc_zt=23&_nc_ht=scontent.fmnl4-2.fna&_nc_gid=Q2ADB1WCDlLCDfilo2GxSw&_nc_ss=7b2a8&oh=00_AQNz0V6x8BuGYYSwfAqs5vO4Pd1P82YIecy934kqEkefFA&oe=6AC5A3B1"
+          alt="Nilaga">
+        <div class="food-info">
+          <div class="food-name">Nilaga</div>
+          <div class="price">P65</div>
+        </div>
+        <div class="cart-btn">ADD TO CART</div>
+      </div>
+
+      <div class="food-card">
+        <img src="https://scontent.fmnl4-6.fna.fbcdn.net/v/t39.30808-6/828018183_1711260271004020_7403089140072116272_n.jpg?stp=dst-jpg_tt6&cstp=mx1536x2048&ctp=s1536x2048&_nc_cat=106&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeHEpgaXZfMYcZd7bHjQVlYMZX2Wr7TolrdlfZavtOiWtzEprabfke9KLQdZZvtAbRmpuiyvQQ2-9pwEepGDk_KT&_nc_ohc=09U3jZ147SEQ7kNvwFduajj&_nc_oc=AdqtDuSIcv2bRUPpEXDzCZDCvH65n2PDhEYl4U4VJSsflGBdj-ixuSmM27n-iN8tzEJNiolBvoreVF-94M8iWX2u&_nc_zt=23&_nc_ht=scontent.fmnl4-6.fna&_nc_gid=h0JfXj89nEtq-DvhYRVG_A&_nc_ss=7b2a8&oh=00_AQNymcreHRmvmnCWvPJp6VE1VuJ0xX_pUlUOwLchggFx0Q&oe=6AC58DBE" alt="Food">
+        <div class="food-info">
+          <div class="food-name">Chicken Afritada</div>
+          <div class="price">P65</div>
+        </div>
+        <div class="cart-btn">ADD TO CART</div>
+      </div>
+
+      <div class="food-card">
+        <img src="https://scontent.fmnl4-3.fna.fbcdn.net/v/t39.30808-6/830754609_1711260217670692_1293082350314847036_n.jpg?stp=dst-jpg_tt6&cstp=mx1206x1593&ctp=s1206x1593&_nc_cat=109&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeGcSHSJBTMjI2SgC3bTtL7fvKh1UO0HINi8qHVQ7Qcg2B_mcRUMrcKq8IA4hpkAL0lfAK4yK8fRSWCXhSgllCkl&_nc_ohc=KTXv61bQPR8Q7kNvwHD8ouo&_nc_oc=Adr5yxuZUbCcCpuZ_mvLBCL_9YyNCQANxrlPRU3bbku3j9JSwk_iEProvb_WdgyYZPFItBSnmsHN250LkK0CwlZu&_nc_zt=23&_nc_ht=scontent.fmnl4-3.fna&_nc_gid=cpDBZ62n3P4tNu12xLDgVw&_nc_ss=7b2a8&oh=00_AQMiUPB34p2bgtf5-0gj2c1mM0CI7D4T7uQRWsX7kPc9bg&oe=6AC59345" alt="Food">
+        <div class="food-info">
+          <div class="food-name">Bicol Express</div>
+          <div class="price">P65</div>
+        </div>
+        <div class="cart-btn">ADD TO CART</div>
+      </div>
+
+    </div>
+
+
+    <!-- MENU -->
+    <div class="menu-header">
+
+      <div class="menu-title">
+      MENU
+      </div>
+
+      <div class="menu-tabs">
+        <div class="tab active">LUNCH</div>
+        <div class="tab">SNACKS</div>
+        <div class="tab">DESSERTS</div>
+        <div class="tab">PACKAGES</div>
+      </div>
+
+    </div>
+
+
+    <!-- MENU FOOD CARDS -->
+    <div class="food-row">
+
+      <div class="food-card">
+        <img src="https://scontent.fmnl4-2.fna.fbcdn.net/v/t39.30808-6/825268455_1710126501117397_9100822479365985431_n.jpg?stp=dst-jpg_tt6&cstp=mx1536x2048&ctp=s1536x2048&_nc_cat=105&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeEUwrhYLYnHOwH5Uo0Deo4AOO1ms5mmKlI47WazmaYqUl6cyjgGHYhkMDj9Fq8IvguSTmlgbhkKND9Xb34UOFvC&_nc_ohc=t5sIJSPvLBoQ7kNvwGcnxoe&_nc_oc=AdrPlAYiMyEZQMfLENefr4n-CdlnF2g3ovFyb3KxZIN1Q8YPy_h-agmI0reQrA7xMoG78CsVvLSB_j1vlAZ_oljK&_nc_zt=23&_nc_ht=scontent.fmnl4-2.fna&_nc_gid=R5iHccvaTRTy4pQnm9yT5w&_nc_ss=7b2a8&oh=00_AQNoW9LosUYJhIYISbwYlFycbscmovKgtmoHrzwH8Q0HxA&oe=6AC591FD" alt="Chicken Fingers">
+        <div class="food-info">
+          <div class="food-name">Chicken FIngers</div>
+          <div class="price">P65</div>
+        </div>
+        <div class="cart-btn">ADD TO CART</div>
+      </div>
+
+      <div class="food-card">
+        <img src="https://scontent.fmnl4-1.fna.fbcdn.net/v/t39.30808-6/829196389_1708935244569856_5474053107243579685_n.jpg?stp=dst-jpg_tt6&cstp=mx720x960&ctp=s720x960&_nc_cat=102&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeHLKMZegH3Ptpsqh2CRAZJADP3s0klQ70UM_ezSSVDvRbtT9tr5QYt6vkRytrpdfo5OrQ0KRa20t_D2XWPAJXKf&_nc_ohc=Y7X_H12ZnFsQ7kNvwEPzAGM&_nc_oc=AdqVHI5lsZP7gFLfyy0LRw5gRA9-rsSI3DI912E_uXG8_JSa6cFOdm4a1FlpFk19hsedMuUtLZT-rH8OvCzILMgM&_nc_zt=23&_nc_ht=scontent.fmnl4-1.fna&_nc_gid=IKXKHJjZMZ26yYVvjCOSXw&_nc_ss=7b2a8&oh=00_AQPmDRqDZTNEhmS65EF4In6Ly_uJ6fRM_w4HCv8jKbdnWg&oe=6AC58753" alt="Food">
+        <div class="food-info">
+          <div class="food-name">Kare kare</div>
+          <div class="price">P65</div>
+        </div>
+        <div class="cart-btn">ADD TO CART</div>
+      </div>
+
+      <div class="food-card">
+        <img src="https://scontent.fmnl4-6.fna.fbcdn.net/v/t39.30808-6/825268364_1708938281236219_6048355717720660968_n.jpg?stp=dst-jpg_tt6&cstp=mx1500x1830&ctp=s1500x1830&_nc_cat=100&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeEh9e6SAMQUxSDypd0Cw3jZjdWPXXk7l0aN1Y9deTuXRnc8b2zbTszp-JUV_n_twFOFR8U-0pQfP3f4nupOSdOC&_nc_ohc=gdrzQdDDg8MQ7kNvwG7cweo&_nc_oc=AdqEZ0vQd_IBwJW_NH1Eqf9Vt_DLGSSlYlbKUaFjH0ctScYqaOK-mDH6N5hw3NFZmQNb52CKCnPBsf7Qu_gdIk7v&_nc_zt=23&_nc_ht=scontent.fmnl4-6.fna&_nc_gid=a5OK73Kt7-SxNbUS0PU5Kw&_nc_ss=7b2a8&oh=00_AQNQXMeJdEYN2AJL4OVC762PXdAlG8PpAEjzZzrQ0Sqtcg&oe=6AC5A526" alt="Food">
+        <div class="food-info">
+          <div class="food-name">Chicken Mushroom</div>
+          <div class="price">P65</div>
+        </div>
+        <div class="cart-btn">ADD TO CART</div>
+      </div>
+
+    </div>
+
+  </div>
+
+</body>
+
+</html>
