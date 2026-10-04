@@ -1,1 +1,177 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
+body {
+    background-color: #fff5f5;
+    font-family: Arial, sans-serif;
+    color: #b72d5b;
+}
+
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    padding: 25px;
+}
+
+/* FOOD OF THE DAY */
+
+.section-title {
+    font-family: Georgia, serif;
+    font-size: 32px;
+    font-weight: bold;
+    text-align: left;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    color: #a92755;
+}
+
+.food-row {
+    display: flex;
+    gap: 25px;
+    width: 100%;
+    margin-bottom: 35px;
+}
+
+.food-card {
+    background-color: white;
+    border-radius: 15px;
+    padding: 10px;
+    flex: 1;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+
+.food-card img {
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+    border-radius: 25px;
+    display: block;
+}
+
+.food-info {
+    padding: 12px 10px;
+}
+
+.food-name {
+    font-size: 20px;
+    font-weight: 500;
+    color: #b52e5b;
+}
+
+.price {
+    font-size: 20px;
+    color: #b52e5b;
+    margin-top: 2px;
+}
+
+.cart-btn {
+    background-color: #bd2e5c;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.cart-btn:hover {
+    background-color: #9e234b;
+}
+
+
+/* MENU HEADER */
+
+.menu-header {
+    display: flex;
+    align-items: center;
+    gap: 35px;
+    margin: 10px 0 25px 100px;
+}
+
+.menu-title {
+    font-family: Georgia, serif;
+    font-size: 32px;
+    font-weight: bold;
+    color: #a92755;
+}
+
+.menu-tabs {
+    display: flex;
+    gap: 10px;
+}
+
+.tab {
+    background-color: #f9cbd8;
+    color: #a92755;
+    padding: 10px 20px;
+    border-radius: 15px;
+    font-family: Georgia, serif;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.tab.active {
+    background-color: #bd2e5c;
+    color: white;
+}
+
+.tab:hover {
+    background-color: #bd2e5c;
+    color: white;
+}
+
+
+/* RESPONSIVE */
+
+@media (max-width: 900px) {
+
+    .food-row {
+        flex-wrap: wrap;
+    }
+
+    .food-card {
+        flex: 1 1 45%;
+    }
+
+    .menu-header {
+        margin-left: 0;
+        flex-wrap: wrap;
+    }
+
+}
+
+@media (max-width: 600px) {
+
+    .container {
+        padding: 15px;
+    }
+
+    .food-row {
+        flex-direction: column;
+    }
+
+    .food-card {
+        width: 100%;
+    }
+
+    .food-card img {
+        height: 230px;
+    }
+
+    .menu-header {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 15px;
+    }
+
+    .menu-tabs {
+        flex-wrap: wrap;
+    }
+
+}
